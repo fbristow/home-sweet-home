@@ -17,7 +17,8 @@ ln -s $PWD/.vimrc ~/.vimrc
 ln -s $PWD/$XFCE/xfce4-keyboard-shortcuts.xml ~/$XFCE/xfce4-keyboard-shortcuts.xml
 ln -s $PWD/$XFCE/xfce4-panel.xml ~/$XFCE/xfce4-panel.xml
 ln -s $PWD/$PLNK/settings ~/$PLNK/settings
+
 mkdir -p ~/$PLNK/launchers
-for $LNCR in $PWD/$PLNK/launchers/* ; do
+for LNCR in $PWD/$PLNK/launchers/* ; do
 	ln -s $LNCR ~/$PLNK/launchers/$(basename $LNCR)
 done
