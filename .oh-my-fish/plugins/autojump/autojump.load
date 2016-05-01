@@ -1,3 +1,0 @@
-set_color red
-echo 'Autojump plugin deprecated.'
-set_color normal
