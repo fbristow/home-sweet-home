@@ -18,4 +18,4 @@ popd
 
 # install oh my fish:
 curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
-omf install beloglazov
+echo "omf install beloglazov" | fish
