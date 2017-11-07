@@ -13,3 +13,7 @@ let g:table_mode_header_fillchar='='
 
 set visualbell
 set noerrorbells
+
+set expandtab
+set tabstop=4
+set shiftwidth=4
