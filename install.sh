@@ -17,5 +17,8 @@ git clone https://github.com/tpope/vim-sensible bundle/vim-sensible
 popd
 
 # install oh my fish:
-curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
-echo "omf install beloglazov" | fish
+INSTALL=$(mktemp)
+curl -o $INSTALL -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install
+fish $INSTALL --noninteractive
+fish -c "omf install beloglazov"
+rm $INSTALL
