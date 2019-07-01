@@ -17,3 +17,6 @@ set noerrorbells
 set expandtab
 set tabstop=4
 set shiftwidth=4
+
+au FileType markdown set textwidth=80
+au FileType markdown set spell spelllang=en_ca
