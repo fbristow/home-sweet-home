@@ -20,3 +20,7 @@ set nowrap
 
 au FileType markdown set textwidth=80
 au FileType markdown set spell spelllang=en_ca
+
+let g:vimwiki_list = [{'path': '~/Projects/comp-1000',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+
