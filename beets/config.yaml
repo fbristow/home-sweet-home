@@ -1,0 +1,19 @@
+directory: ~/Music/Collection/
+library: ~/musiclibrary.db
+plugins: convert fetchart embedart
+convert:
+    auto: no
+    copy_album_art: yes
+    never_convert_lossy_files: yes
+    command: /home/fbristow/.config/beets/convert.sh $source $dest
+    extension: mp3
+    dest: ~/Music/mp3/
+import:
+    write: yes
+    move: yes
+    copy: no
+    bell: yes
+ui:
+    color: yes
+fetchart:
+    maxwidth: 500
