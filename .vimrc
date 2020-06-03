@@ -24,3 +24,5 @@ au FileType markdown set spell spelllang=en_ca
 let g:vimwiki_list = [{'path': '~/Projects/comp-1000',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
+au FileType vimwiki,markdown hi courseRef ctermfg=yellow
+au FileType vimwiki,markdown syn match courseRef /&\d*&/
