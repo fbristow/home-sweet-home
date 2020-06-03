@@ -1,5 +1,5 @@
 directory: ~/Music/Collection/
-library: ~/musiclibrary.db
+library: ~/Music/musiclibrary.db
 plugins: convert fetchart embedart
 convert:
     auto: no
