@@ -29,3 +29,6 @@ curl -o $INSTALL -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/inst
 fish $INSTALL --noninteractive
 fish -c "omf install beloglazov"
 rm $INSTALL
+
+# set up the path so that I get pip-installed python scripts
+fish -c "set -U fish_user_paths \$fish_user_paths /home/fbristow/.local/bin"
