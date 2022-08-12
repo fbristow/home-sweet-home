@@ -8,6 +8,8 @@ convert:
     command: /home/fbristow/.config/beets/convert.sh $source $dest
     extension: mp3
     dest: ~/Music/mp3/
+    paths:
+      default: $albumartist/$album%aunique{}%if{$disc, (Disc $disc)}/$track $title
 import:
     write: yes
     move: yes
