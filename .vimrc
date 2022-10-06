@@ -17,6 +17,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set nowrap
+set autoindent
 
 au FileType markdown set textwidth=80
 au FileType markdown set spell spelllang=en_ca
